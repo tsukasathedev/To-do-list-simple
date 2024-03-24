@@ -34,7 +34,6 @@ function App() {
     <h1>My <span className='simple'>Simple</span> To-Do-List.</h1>
     <h3>Here you can plan all your tasks simply. No login needed. Enjoy ! </h3>
     <div className='container'>
-    <img src="src/media/todolistImg.webp" alt="" />
     <div className='arrow' onClick={scrollToBottom}></div>
     <div className='content'>
       <input type="text" value={TodoValue} onChange={ChangeValue}  placeholder='Your to-do thing here'/>
